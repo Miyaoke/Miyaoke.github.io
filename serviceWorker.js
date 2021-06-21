@@ -1,7 +1,7 @@
 var CACHE_NAME  = "MKit-cache-v1";
 var urlsToCache = [
-    "https://test.mousetronick.com/minimumPwa/",
-    "https://test.mousetronick.com/minimumPwa/index.html"
+    "https://https://miyaoke.github.io/",
+    "https://https://miyaoke.github.io/index.html"
 ];
 
 self.addEventListener('install', function(event) {
