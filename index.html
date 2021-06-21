@@ -3,6 +3,7 @@
 <head>
   <!-- manifest.jsonを呼び出しています -->
   <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script>
     // service workerが有効なら、service-worker.js を登録します
     if ('serviceWorker' in navigator) {
@@ -25,18 +26,11 @@
 </head>
 <body>
   <h1>Museum Test Site</h1>
-  <div class="row">
-    <div class="column">
-      <div class="card">..</div>
-    </div>
-    <div class="column">
-      <div class="card">..</div>
-    </div>
-    <div class="column">
-      <div class="card">..</div>
-    </div>
-    <div class="column">
-      <div class="card">..</div>
+  <div class="card">
+    <img src="kuma.jpg" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>John Doe</b></h4>
+      <p>Architect & Engineer</p>
     </div>
   </div>
 </body>
